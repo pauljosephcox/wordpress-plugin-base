@@ -28,4 +28,9 @@ class Resource extends BasePostType {
 	}
 
 }
+
+$resource = new Resource();
+$resource->title = "My Resource";
+$resource->set("my_custom_field","Hello World");
+$resource->save();
 ```
