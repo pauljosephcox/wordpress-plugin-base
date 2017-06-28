@@ -1,2 +1,5 @@
-# wordpress-plugin-start
-A Starting point for a wordpress plugin
+# Wordpress Plugin Base
+A Starting point for every custom wordpress plugin
+
+
+
