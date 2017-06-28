@@ -29,6 +29,7 @@ class Resource extends BasePostType {
 
 }
 
+// This will create a new resource post type in wordpress and update the custom field "my_custom_field"
 $resource = new Resource();
 $resource->title = "My Resource";
 $resource->set("my_custom_field","Hello World");
